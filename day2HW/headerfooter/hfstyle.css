@@ -1,0 +1,137 @@
+.header{
+    height: 120px;
+    border: 1px solid black;
+    overflow: hidden;
+    background-color: #254463;
+   
+}
+
+.search{
+  float: right;
+  padding: 5px;
+   display: flex;
+   position: absolute;
+   right: 8px;
+    top: 50px;
+    }
+.search form{
+    padding: 2px;
+    
+  
+}
+        
+#icons{
+    height: 20px;
+    width: 170px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius:4px;
+}
+select{
+    width: 70px;
+    background-image:
+    linear-gradient(45deg, transparent 50%, rgb(240, 240, 248) 50%),
+    linear-gradient(135deg, rgb(255, 255, 255) 50%, transparent 50%),
+    linear-gradient(to right,transparent,transparent);
+    background-position:
+    calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px),
+    100% 0;
+  background-size:
+    4px 4px,
+    5px 5px,
+    1em 1em;
+  background-repeat: no-repeat;
+    padding: 3px;
+    background-color:  #254463;
+    -webkit-appearance:none; 
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: cornsilk;
+    text-align: left;
+ 
+}
+.navlist{
+    float: right;
+    padding: 5px;
+    position: absolute;
+    right: 10px;
+     top: 70px;
+}
+.navlist li{
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    display: block;
+    margin: 9px;
+    text-align: center;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    font-size: smaller;
+}
+/*footer*/
+
+footer{
+    background-color: #494c4b;
+}
+
+.container{
+    display: flex;
+   padding: 20px;
+   margin-left: 30px;
+}
+
+.office{
+    color:#c5c5c4 ;
+   
+  
+}
+
+.container ul{
+    list-style-type:  none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+   
+}
+
+li{
+    padding: 5px;
+}
+
+.service{
+    color: white;
+}
+.service li{
+    border-bottom: 1px solid #919393;
+    font-size: small;
+}
+
+.Resources{
+    color: white;
+}
+.Resources li{
+    border-bottom: 1px solid #919393;
+    font-size: small;
+}
+
+.line{
+    background-color: black;
+    color: white;
+    display: flex;
+}
+.icon-tabler {
+    color: white;
+    width: 32px;
+    height: 32px;
+    stroke-width: 1.25;
+    margin-left: 10px;
+    margin-top: 6px;
+  }
+
+  .line p{
+    margin-left: 50px;
+  }
+  .iconss{
+    margin-left: 820px;
+  }
+
