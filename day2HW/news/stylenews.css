@@ -1,0 +1,98 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hpart{
+    background-color: #518db6;
+    height: 90px;
+
+}
+.but{
+    margin: 30px;
+    float: right;
+    background-color: orange;
+    color: white;
+    border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+    border-radius: 4px;
+    padding: 10px 24px;
+}
+
+.container {
+    background-color: #eae7e7;
+    height: 600px;
+}
+
+.newsPage{
+    display: flex;
+}
+.news{
+    width: 350px;
+    height: 400px;
+    background-color: white;
+    margin: 40px;
+    box-shadow: 1px 1px 1px #888888;
+}
+
+.news img {
+    width: 240px;
+    height: 140px;
+    margin-left: 50px;
+}
+
+.news p{
+    margin-left: 20px;
+    width: 300px;
+  
+}
+
+.content{
+    color: gray;
+    font-size: small;
+}
+samp{
+    float: right;
+    margin-right: 10px;
+}
+
+.title{
+    color: #275675;
+    font-weight: bold;
+    font-size: medium;
+}
+.line{
+    margin: 10px;
+    border: 1px solid rgb(224, 220, 220) ;
+    width: 80%;
+    height: 1px;
+}
+.tags{
+    font-weight: bold;
+    width: 300px;
+    margin-left: 10px;
+    font-size: small;
+}
+
+.pagination {
+    display: inline-block;
+    margin-left: 30px;
+  }
+  
+  .pagination a {
+    color: white;
+    float: left;
+    padding: 5px 12px;
+    text-decoration: none;
+    background-color: #54a2c0;
+    border: 1px solid #ddd;
+    font-size: 17px;
+  }
+  
+  .pagination a.active {
+    background-color: orange;
+    color: white;
+    border: 1px solid orange;
+  }
+  
